@@ -1,8 +1,9 @@
 import authentication from './middleware/authentication';
-import authorization from './middleware/authorization'
+import authorization from './middleware/authorization';
 import route from './router';
 
 const express = require('express');
+
 const app = express();
 const port = 3000;
 const bodyParser = require('body-parser')

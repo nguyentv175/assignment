@@ -1,18 +1,18 @@
+/* eslint-disable class-methods-use-this */
+/* eslint-disable no-useless-constructor */
 import Base from './baseController';
 
 class paymentController extends Base {
+  constructor() {
+    super();
+  }
 
-    constructor() {
-        super();
+  payment(data) {
+    if (data.id % 2 === 0) {
+      return true;
     }
-
-    payment(data) { 
-        if(data.id % 2 === 0) { 
-            return true;
-        }
-        return false;
-    }
-
+    return false;
+  }
 }
 
 export default paymentController;
