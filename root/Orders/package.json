@@ -20,6 +20,7 @@
     "save-dev": "^2.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-es2015-classes": "^6.24.1",
